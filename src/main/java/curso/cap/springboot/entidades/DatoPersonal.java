@@ -22,4 +22,12 @@ public class DatoPersonal {
 	@JoinColumn(name = "hijos_id")
 	private Hijo hijo;
 
+	public String getEstadoCivil() {
+		return estadoCivil;
+	}
+
+	public void setEstadoCivil(String estadoCivil) {
+		this.estadoCivil = estadoCivil;
+	}
+
 }
