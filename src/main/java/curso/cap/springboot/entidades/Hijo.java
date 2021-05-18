@@ -20,8 +20,8 @@ public class Hijo {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	
-	
-	private int chicos;
+	@Column(name = "chicos")
+	private int chi;
 	
 	
 	private int chicas;
@@ -37,12 +37,13 @@ public class Hijo {
 		this.id = id;
 	}
 
-	public int getChicos() {
-		return chicos;
+	
+	public int getChi() {
+		return chi;
 	}
 
-	public void setChicos(int chicos) {
-		this.chicos = chicos;
+	public void setChi(int chi) {
+		this.chi = chi;
 	}
 
 	public int getChicas() {
