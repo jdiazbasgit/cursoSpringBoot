@@ -28,6 +28,11 @@
 		</c:forEach>
 		 
 	</table>
+	
+	<br>
+	<form action="">
+	<input type="date" name="a">
+	</form>
 
 </body>
 </html>
