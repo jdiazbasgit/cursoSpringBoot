@@ -15,7 +15,7 @@ import curso.cap.springboot.repositorios.DatoPersonalCrudRepository;
 import curso.cap.springboot.repositorios.EmpleadoCrudRepository;
 import curso.cap.springboot.repositorios.HijoCRUDRepository;
 
-@Controller
+//@Controller
 public class IndexController {
 
 	@Autowired

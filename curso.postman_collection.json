@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "0653c4a2-08af-4ab9-b2be-4208171cbb24",
+		"name": "curso",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/empleadosPath",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJjdXJzb0pXVCIsInN1YiI6ImFkbWluIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJpYXQiOjE2MjE1MzMxMjAsImV4cCI6MTYyMTUzMzcyMH0.xmxT4bLSxjA82WKFM-s-PxJlcUHuY697fd0gw0_wz2sFWsENvehV9tAN4FE6R93hlPAdawkOgowl2ZIWlwwLJQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/empleadosPath",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"empleadosPath"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/login?usuario=admin&clave=1234",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJjdXJzb0pXVCIsInN1YiI6InVzZXIiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjIxNTMxNzA5LCJleHAiOjE2MjE1MzIzMDl9.fjAeGqL7pJDfIL-mI6j7nOaxKYZ73C66p6FqsiiWR9mYbfNDYBIFdMmhgosfxh4P3z8Pu_GApQlDbP7gy_iKqg",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/login?usuario=admin&clave=1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					],
+					"query": [
+						{
+							"key": "usuario",
+							"value": "admin"
+						},
+						{
+							"key": "clave",
+							"value": "1234"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/empleadosPath",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJjdXJzb0pXVCIsInN1YiI6ImFkbWluIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJpYXQiOjE2MjE1MzMxMjAsImV4cCI6MTYyMTUzMzcyMH0.xmxT4bLSxjA82WKFM-s-PxJlcUHuY697fd0gw0_wz2sFWsENvehV9tAN4FE6R93hlPAdawkOgowl2ZIWlwwLJQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/empleadosPath",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"empleadosPath"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
