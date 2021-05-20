@@ -15,7 +15,7 @@ import org.springframework.data.rest.core.annotation.RestResource;
 
 @Entity
 @Table(name = "empleados")
-
+@RestResource(path = "/empleadosPath", rel = "empleadoRel")
 public class Empleado {
 	
 	

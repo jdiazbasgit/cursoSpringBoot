@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreType;
 
 @Entity
 @Table(name = "hijos")
-@JsonIgnoreType
+//@JsonIgnoreType
 public class Hijo extends RepresentationModel<Hijo>{
 	
 	

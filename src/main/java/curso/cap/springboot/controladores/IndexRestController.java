@@ -21,7 +21,7 @@ import curso.cap.springboot.repositorios.DatoPersonalCrudRepository;
 import curso.cap.springboot.repositorios.EmpleadoCrudRepository;
 import curso.cap.springboot.repositorios.HijoCRUDRepository;
 
-@RestController
+//@RestController
 public class IndexRestController {
 	
 	@Autowired
