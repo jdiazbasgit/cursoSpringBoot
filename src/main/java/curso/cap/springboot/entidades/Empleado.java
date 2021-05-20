@@ -11,8 +11,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.springframework.data.rest.core.annotation.RestResource;
+
 @Entity
 @Table(name = "empleados")
+
 public class Empleado {
 	
 	
@@ -33,7 +36,7 @@ public class Empleado {
 	private DatoPersonal datoPersonal ;
 	
 	@ManyToOne
-	@JoinColumn(name = "dtos_laborales_id")
+	@JoinColumn(name = "datos_laborales_id")
 	private DatoLaboral datoLaboral;
 
 	public int getId() {

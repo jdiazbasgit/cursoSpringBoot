@@ -8,9 +8,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.springframework.hateoas.RepresentationModel;
+
 @Entity
 @Table(name = "datos_personales")
-public class DatoPersonal {
+public class DatoPersonal extends RepresentationModel<DatoPersonal> {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;

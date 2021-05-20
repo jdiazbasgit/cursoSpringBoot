@@ -56,7 +56,7 @@ public class IndexController {
 
 	}
 
-	@GetMapping("/hijos")
+	@GetMapping("/hijosController")
 	public ModelAndView getHijos() {
 
 		// Iterable<Hijo> hijos=getRepository().findAll();

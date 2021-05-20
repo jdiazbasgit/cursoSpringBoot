@@ -11,9 +11,14 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import org.springframework.hateoas.RepresentationModel;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreType;
+
 @Entity
 @Table(name = "hijos")
-public class Hijo {
+@JsonIgnoreType
+public class Hijo extends RepresentationModel<Hijo>{
 	
 	
 	@Id

@@ -12,7 +12,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "dtos_laborales")
+@Table(name = "datos_laborales")
 public class DatoLaboral {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
